@@ -1,5 +1,5 @@
-# YOLOv4-road-detection
-object detection for safer self driving with YOLOv4
+# object detection for safer self driving
+object detection for safer self driving with YOLOv4, YOLOv8
 
 ## Environment
 - VM: Google Colaboratory
