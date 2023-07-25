@@ -3,7 +3,8 @@ object detection for safer self driving with YOLOv4
 
 ## Environment
 - VM: Google Colaboratory
-- GPU: NVIDIA T4 Tensor GPU
+- GPU: Tesla T4
+- CUDA: 12.0
 
 ## Classes
 1. car
@@ -13,6 +14,7 @@ object detection for safer self driving with YOLOv4
 5. light
 6. pothole
 
+## Dataset
 class      | training labels   | testing labels
 :---------:|------------------:|---------------:
 car        | 101,314 labels    | 22,000 labels
@@ -23,9 +25,8 @@ light      | 12,700 labels     | 4,553 labels
 pothole    | 4,443 labels      | 314 labels
 **total**  | **136,849 labels**| **33,013 labels**
 
-## Dataset
-- https://www.kaggle.com/alincijov/self-driving-cars
-- https://data.mendeley.com/datasets/5ty2wb6gvg/1
+- car ~ light dataset: https://www.kaggle.com/alincijov/self-driving-cars
+- pothole dataset: https://data.mendeley.com/datasets/5ty2wb6gvg/1
 
 ## Result
 
