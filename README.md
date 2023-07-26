@@ -38,9 +38,9 @@ pothole    | 4,443 labels      | 314 labels
 - pothole dataset: https://data.mendeley.com/datasets/5ty2wb6gvg/1
 
 ## Weight
-YOLOv8      | YOLOv4                
-:---------:|------------------:
-[yolo-v8_final.pt](https://drive.google.com/file/d/1YpE9QYyYh0E6tqAeeZDBLqAAgs5iz1uF/view?usp=sharing) | [yolo-obj_final.weights](https://drive.google.com/file/d/1jtZO5RLuvYka0aUJkGpRMrK-DY1QNP7i/view?usp=sharing)    
+YOLOv4 | YOLOv8
+:-----:|:------:
+[yolo-obj_final.weights](https://drive.google.com/file/d/1jtZO5RLuvYka0aUJkGpRMrK-DY1QNP7i/view?usp=sharing) | [yolo-v8_final.pt](https://drive.google.com/file/d/1YpE9QYyYh0E6tqAeeZDBLqAAgs5iz1uF/view?usp=sharing)
 
 
 ## Result
