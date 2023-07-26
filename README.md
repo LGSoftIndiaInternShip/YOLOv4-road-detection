@@ -27,7 +27,7 @@ object detection for safer self driving with YOLOv4, YOLOv8
 - pothole dataset: https://data.mendeley.com/datasets/5ty2wb6gvg/1
 
 **[YOLOv4]**
-class      | labels for training  | labels for test
+class      | labels for training  | labels for validation
 :---------:|---------------------:|----------------:
 car        | 101,314 labels       | 22,000 labels
 truck      | 6,313 labels         | 1,009 labels
@@ -38,15 +38,15 @@ pothole    | 4,443 labels         | 314 labels
 **total**  | **136,849 labels**   | **33,013 labels**
 
 **[YOLOv8]**
-class      | labels for training  | labels for test
+class      | labels for training  | labels for validation
 :---------:|---------------------:|----------------:
-car        | 101,314 labels       | 22,000 labels
-truck      | 6,313 labels         | 1,009 labels
-pedestrian | 10,637 labels        | 4,903 labels
-bicyclist  | 1,442 labels         | 234 labels
-light      | 12,700 labels        | 4,553 labels
-pothole    | 4,443 labels         | 314 labels
-**total**  | **136,849 labels**   | **33,013 labels**
+car        | 36,910 labels       | 9,025 labels
+truck      | 3,296 labels         | 874 labels
+pedestrian | 6,951 labels        | 1,640 labels
+bicyclist  | 804 labels         | 151 labels
+light      | 6,979 labels        | 1,748 labels
+pothole    | 8,187 labels         | 2,000 labels
+**total**  | **63,127 labels**   | **15,438 labels**
 
 ## Weights
 YOLOv4 | YOLOv8
