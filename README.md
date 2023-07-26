@@ -1,12 +1,21 @@
 # object detection for safer self driving
 object detection for safer self driving with YOLOv4, YOLOv8
 
-## Environment
+* [Environment](#Environment)
+* [Classes](#Classes)
+* [Dataset](#Dataset)
+* [Weight](#Weight)
+* [Result](#Result)
+* [References](#References)
+
+
+
+<h2 id='Environment'>Environment</h2>
 - VM: Google Colaboratory
 - GPU: Tesla T4
 - CUDA: 12.0
 
-## Classes
+<h2 id='Classes'>Classes</h2>
 1. car
 2. truck
 3. pedestrian
@@ -14,7 +23,7 @@ object detection for safer self driving with YOLOv4, YOLOv8
 5. light
 6. pothole
 
-## Dataset
+<h2 id='Dataset'>Dataset</h2>
 class      | training labels   | testing labels
 :---------:|------------------:|---------------:
 car        | 101,314 labels    | 22,000 labels
@@ -28,16 +37,16 @@ pothole    | 4,443 labels      | 314 labels
 - car ~ light dataset: https://www.kaggle.com/alincijov/self-driving-cars
 - pothole dataset: https://data.mendeley.com/datasets/5ty2wb6gvg/1
 
-## Weight
+<h2 id='Weight'>Weight</h2>
 YOLOv8      | YOLOv4                
 :---------:|------------------:
 [yolo-v8_final.pt](https://drive.google.com/file/d/1YpE9QYyYh0E6tqAeeZDBLqAAgs5iz1uF/view?usp=sharing) | [yolo-obj_final.weights](https://drive.google.com/file/d/1jtZO5RLuvYka0aUJkGpRMrK-DY1QNP7i/view?usp=sharing)    
 
 
-## Result
+<h2 id='Result'>Result</h2>
 
 
-## References
+<h2 id='References'>References</h2>
 - https://github.com/AlexeyAB/darknet
 - https://github.com/dec880126/Self-driving-with-YOLO
 - https://github.com/adnankarol/Yolov4_Road_Damage_Detection
